@@ -1,0 +1,38 @@
+body {
+    background-color: #f9fafb;
+}
+
+h1, h2, h3 {
+    color: #2d3748; /* Dark gray for headings */
+}
+
+a {
+    color: #2b6cb0; /* Blue for links */
+}
+
+a:hover {
+    color: #2c5282; /* Darker blue on hover */
+}
+
+button {
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2f855a; /* Darker green on hover */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #e2e8f0; /* Light gray border */
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #edf2f7; /* Light gray for header */
+} 
